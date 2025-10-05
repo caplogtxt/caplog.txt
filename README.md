@@ -22,7 +22,7 @@ It is future-proof and designed to be interoperable with multiple independent im
 * Log entries are separated from each other by one or more blank lines. 
 * The first line of the entry must be 'DateTime'
 * The second line of the entry must be 'Timestamp'
-* The Third line begins the 'Message' block and it ends with a blank line. The only criterion of an entry message is that it cannot contain a blank line. 
+* The third line begins the 'Message' block, and it ends with a blank line. The only requirement for an entry message is that it cannot contain a blank line.
 
 ## Structure
 
