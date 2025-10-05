@@ -45,4 +45,4 @@ ENTRY3 DESCRIPTION
 
 ## Example
 
-()[./sample.png]
+!["Sample caplog.txt log file"](./sample.png)
