@@ -4,7 +4,7 @@ A comprehensive guide on syntax and semantics of caplog.txt log file format
 # Description
 
 Caplog.txt is an open-source, plaintext syntax for formating and structuring log entries in a logbook. It is both machine-readable and human-readable. 
-It is future-proof and designed to be interoperable with multiple independent implementations, including a paper-based logbook. It is inspired from Todo.txt. 
+It is future-proof and designed to be interoperable with multiple independent implementations, including a paper-based logbook. It is inspired from Todo.txt amd Star Trek. 
 
 
 # Terminology
@@ -27,19 +27,22 @@ It is future-proof and designed to be interoperable with multiple independent im
 ## Structure
 
 ```text
-DATE1
-ENTRY TIMESTAMP1
-ENTRY MESSAGE1
+ENTRY1 DATETIME
+ENTRY1 TIMESTAMP
+ENTRY1 DESCRIPTION1
 
-DATE2
-ENTRY TIMESTAMP2
-ENTRY MESSAGE2
+ENTRY2 DATETIME
+ENTRY2 TIMESTAMP
+ENTRY2 DESCRIPTION
 
-DATE3
-ENTRY TIMESTAMP3
-ENTRY MESSAGE3
-
-DATE4
-ENTRY TIMESTAMP4
-ENTRY MESSAGE4
+ENTRY3 DATETIME
+ENTRY3 TIMESTAMP
+ENTRY3 DESCRIPTION
+...
+...
+...
 ```
+
+## Example
+
+()[./sample.png]
