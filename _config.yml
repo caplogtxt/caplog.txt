@@ -1,0 +1,52 @@
+# Site settings
+title: "Caplog.txt"
+description: "An open, plain-text format for structured personal logging"
+baseurl: "/caplog-txt-website"
+url: "https://shubhambhahada.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Jekyll configuration for GitHub Pages
+plugins:
+  - jekyll-sass-converter
+
+# Collections
+collections:
+  posts:
+    output: false
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Site navigation
+navigation:
+  - title: "About"
+    anchor: "hero"
+  - title: "Features"
+    anchor: "features"
+  - title: "Example"
+    anchor: "syntax-example"
+  - title: "Apps"
+    anchor: "apps"
+
+# GitHub repository information
+github:
+  repository_url: "https://github.com/caplogtxt/caplog.txt"
+  cli_repository_url: "https://github.com/caplogtxt/caplog.txt-cli"
+
+# Theme configuration
+theme_color: "#2c3e50"
+accent_color: "#3498db"
